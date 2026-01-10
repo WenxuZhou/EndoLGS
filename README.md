@@ -56,7 +56,7 @@ python train.py \
 ```
 
 ## Others
-Visualize Rendering Results
+Visualize rendering results
 ```bash
 python render.py \
     --model_path <reconstruction_result_path> \
@@ -65,7 +65,7 @@ python render.py \
     --configs <parameter_configs>
 ```
 
-Test Text Query Results
+Test text query results
 ```bash
 python eval_lang.py \
     --model_path <reconstruction_result_path> \
@@ -73,18 +73,18 @@ python eval_lang.py \
     --ae_ckpt_path <autoencoder_weights_path>
 ```
 
-Evaluate Visual Quality
+Evaluate visual quality
 ```bash
 python metrics.py \
     --model_path <reconstruction_result_path>
 ```
 
-Convert Images to Video (Use `ffmpeg` to convert image sequences to video)
+Convert images to video (use `ffmpeg` to convert image sequences to video)
 ```bash
 ffmpeg -framerate 24 -i <path_to_render_result>/%05d.png -c:v libx264 -pix_fmt yuv420p <output_video_path>
 ```
 
-Visualize Segmentation Masks
+Visualize segmentation masks
 ```bash
 python seg_vis.py \
     --mask_dir <path_to_mask_dir> \
