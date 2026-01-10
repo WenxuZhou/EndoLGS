@@ -26,21 +26,21 @@ pip install -e submodules/simple-knn
 ```
 
 ## Training
-Extract Cross-Modal Features with CLIP
+Extract cross-Modal features with CLIP
 ```bash
 python generate_clip_features.py \
     --dataset_path <dataset_path> \
     --precompute_seg <path_to_semantic_masks>
 ```
 
-Train Autoencoder
+Train autoencoder
 ```bash
 python autoencoder/train.py \
     --dataset_path <dataset_path> \
     --model_name <autoencoder_save_path>
 ```
 
-Obtain Compressed Features
+Obtain compressed features
 ```bash
 python autoencoder/test.py \
     --dataset_path <dataset_path> \
