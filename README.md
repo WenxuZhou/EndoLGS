@@ -26,7 +26,7 @@ pip install -e submodules/simple-knn
 ```
 
 ## Training
-Extract cross-Modal features with CLIP
+Extract cross-modal features with CLIP
 ```bash
 python generate_clip_features.py \
     --dataset_path <dataset_path> \
