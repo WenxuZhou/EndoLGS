@@ -90,3 +90,15 @@ python seg_vis.py \
     --mask_dir <path_to_mask_dir> \
     --image_dir <path_to_image_dir>
 ```
+
+## Reference
+```
+@inproceedings{zhou2025open,
+  title={Open-Vocabulary Endoscopic Scene Understanding via 4D Language Gaussian Splatting},
+  author={Zhou, Wenxu and Yin, Dong},
+  booktitle={2025 IEEE International Conference on Bioinformatics and Biomedicine (BIBM)},
+  pages={7184--7191},
+  year={2025},
+  organization={IEEE}
+}
+```
